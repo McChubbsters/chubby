@@ -59,6 +59,8 @@ world-settings:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
+    remove-invalid-mob-spawner-tile-entities: true
+    player-blocking-damage-multiplier: 0.5
     disable-teleportation-suffocation-check: false
     game-mechanics:
       boats-drop-boats: false
@@ -66,8 +68,6 @@ world-settings:
       disable-chest-cat-detection: false
       disable-end-credits: false
     nether-ceiling-void-damage: false
-    remove-invalid-mob-spawner-tile-entities: true
-    player-blocking-damage-multiplier: 0.5
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -79,8 +79,8 @@ world-settings:
       normal: 30
       nether: 10
     disable-explosion-knockback: false
-    fix-cannons: false
     water-over-lava-flow-speed: 5
+    fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
